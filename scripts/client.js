@@ -24,19 +24,19 @@ console.log(citiesArray);
 let found;
 
 for (let i = 0; i < Array.length; i++) {
-    if (citiesArray[i] == "minneapolis") {
+    if (citiesArray[i] == "Minneapolis") {
         found = true;
        break;
    }
 
-    if (found == true) {
-        console.log('minnespolis is found in this array');
+    if (found = true) {
+        console.log('Minneapolis is found in this array');
     } else {
-        console.log('minnespolis is not found in this array');
+        console.log('Minneapolis is not found in this array');
     }
 }
 
-console.log(citiesArray.lastIndexOf('Minnespolis'));   
+console.log(citiesArray.lastIndexOf('Minneapolis'));   
 // -1 means it was not found!!
 
 cities.trim();
